@@ -212,7 +212,11 @@ body {
 
 /* media query notebook */
 
+<<<<<<< HEAD
 @media (max-width: 1440px) {
+=======
+@media (max-width: 1174px) {
+>>>>>>> 20d41baa5254f04a38beae1b55b762fe35903860
 
   body{
     overflow: hidden;
