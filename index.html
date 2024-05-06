@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="imagex/png" href="/imagens/Frame 6.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador de texto</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <img class="logo__Alura" src="imagens/Frame 6.png" alt="logo da alura">
+  <main class="apresentacao">
+    <div class="container">
+      <section class="container__section">
+        <textarea id="textarea__apresentacao" cols="30" rows="15" maxlength="1512"
+          placeholder="Digite seu texto"></textarea>
+
+        <div class="disclaimer">
+          <img src="imagens/bi_exclamation-circle-fill.png" alt="Icone de exclamação" class="IconImg">
+          <h6 class="h6Disclaimer">Apenas letras minúsculas e sem acento.</h6>
+        </div>
+
+        <div class="containerBtn">
+          <button class="criptografarBtn"onclick="encriptar()">Criptografar</button>
+          <button class="descriptografarBtn" onclick="descriptar()">Descriptografar</button>
+        </div>
+
+      </section>
+
+    </div>
+
+    <div class="container_resultado">
+      <section class="resultado">
+        <img id="imgLupa" class="homemLupa" src="imagens/High quality products 1 1.png"
+          alt="Imagem de um homem segurando uma Lupa.">
+        <h3 id="msgNenhuma" class="nenhuma__mensagem">Nenhuma mensagem <span class="msgEncontrada">encontrada</h3>
+
+        <div class="containerTextArea">
+          <textarea id="textarea__resultado" cols="30" rows="15" maxlength="1512" onkeyup="onChangeTextAreaResultado()"
+            placeholder="Digite um texto que você deseja criptografar ou descriptografar." readonly ></textarea>
+            
+        </div>
+        <button class="result_btn" id="btn_copy" onclick="copiarTexto()">Copiar</button>
+      </section>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <p>Idealizado por Alura: Projeto ONE</p>
+    <p>Desenvolvido por Mateus</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
