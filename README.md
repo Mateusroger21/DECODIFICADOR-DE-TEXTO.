@@ -3,5 +3,5 @@
 <h2>Desenvolvido por <strong>Mateus Roger</strong></h2></br>
 <h3>O projeto foi desenvolvido em HTML, CSS e JS, levando em conta manipulação de elementos DOM e Responsividade.</h3>
 
-Para acessar o site do projeto <a href="https://denium.github.io/Decodificador-de-texto/">clique aqui!</a>
+Para acessar o site do projeto <a href="https://mateusroger21.github.io/DECODIFICADOR-DE-TEXTO./">clique aqui!</a>
 
